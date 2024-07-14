@@ -158,3 +158,11 @@ REST_KNOX = {
     "TOKEN_LIMIT_PER_USER": None,
     "AUTO_REFRESH": False,
 }
+CORS_ALLOWED_ORIGINS = [
+   "*" ]
+CORS_ORIGIN_ALLOW = True
+
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:3000/",
+]

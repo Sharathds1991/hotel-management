@@ -12,7 +12,6 @@ class LocationAdmin(admin.ModelAdmin):
     
 class Client_bookingAdmin(admin.ModelAdmin):
     # form = HotelForm
-    search_fields = ["hotel__name,author__username"]
     list_display = [f.name for f in Client_booking._meta.fields]
     date_hierarchy = "created"
     
